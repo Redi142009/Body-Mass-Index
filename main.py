@@ -14,7 +14,7 @@ def BMI():
         print(">>> You are very thin")
     elif x/u > 25:
         print(">>> Too much weight")
-    elif x/u > 18 or BMI < 25:
+    elif x/u > 18 or x/u < 25:
         print(">>> Normal weight")
     print("================================")
 
